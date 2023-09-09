@@ -145,3 +145,271 @@ nav a:hover {
     color: black;
     margin-top: 20px;
 }
+
+
+/* Pick your Premium */
+
+.pick_premium {
+    background-color: #efefef;
+    padding: 50px 0px;
+}
+
+.pick_premium h1 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+
+.pick_premium_text {
+    text-align: center;
+    color: black;
+    padding: 10px 0px;
+}
+
+.pick_premium_account {
+    justify-content: center;
+    display: flex;
+}
+
+.pick_premium_account img {
+    width: 25px;
+    padding: 10px 0px;
+}
+
+.premium_plan {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* premium_plan_content */
+
+    .premium_plan_content {
+        background-color: white;
+        width: 250px;
+        padding: 15px;
+        box-shadow: 1px 1px 10px #898989;
+        border-radius: 10px;
+        margin: 0px 8px;
+    }
+
+    .premium_plan_content h2 {
+        margin: 5px 0px;
+        color: black;
+    }
+
+    .monthly_plan {
+        background-color: rgb(0, 130, 252);
+        color: white;
+        width: 90%;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .prepaid_plan {
+        background-color: white;
+        color: rgb(0, 130, 252);
+        width: 70%;
+        border: 1px solid rgb(0, 130, 252);
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 11px;
+        font-weight: bold;
+        margin: 8px 0px 5px 0px;
+    }
+
+    .prepaid_plan_text {
+        color: black;
+        font-size: 15px;
+        margin: 3px 0px;
+    }
+
+    .premium_plan_content hr {
+        margin: 25px 0px;
+    }
+
+    .premium_offer_content {
+        display: flex;
+        margin: 10px 0px;
+    }
+
+
+    .premium_offer_content p {
+        color: black;
+        margin-left: 10px;
+    }
+
+    .premium_offer_content img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .set_started1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .set_started2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .set_started3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+    }
+
+    .set_started4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .set_started_button {
+        background-color: black;
+        color: white;
+        width: 90%;
+        border: none;
+        padding: 13px;
+        font-size: 17px;
+        margin: 15px 0px 15px 0px;
+        border-radius: 30px;
+    }
+
+    .individual_plan {
+        color: black;
+        font-size: 11px;
+    }
+
+    .individual_plan a {
+        color: black;
+        font-size: 11px;
+    }
+
+
+
+/* Student */
+
+.student {
+    
+    margin: 50px auto;
+    background-color: white;
+    max-width: 650px;
+    box-shadow: 1px 1px 10px #898989;
+    
+}
+
+.student_div {
+    display: flex;
+    margin-bottom: -30px;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.student_text {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.student_button {
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 12px 20px;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    padding-top: 50px;
+}
+
+.footer_div {
+    max-width: 1200px;
+    display: flex;
+    padding: 50px 10px;
+    margin: 0px auto;
+}
+
+.footer_logo img {
+    width: 150px;
+    height: 45px;
+}
+
+.footer_link {
+    margin: 0px 45px;
+}
+
+
+.footer_link ul li {
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer_link ul li:hover {
+    color: rgb(0, 255, 0);
+}
+
+.footer_link_heading {
+    color: rgb(131, 131, 131);
+    line-height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer_social_link {
+    display: block;
+    margin-left: auto;
+}
+
+.footer_social_link img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.footer_social_link img:hover {
+    background: rgb(0, 80, 0);
+    border-radius: 40px;
+}
+
+.footer_end {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer_end_link a {
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 8px;
+    color: rgb(131, 131, 131);
+}
+
+.footer_end_link a:hover {
+    color: rgb(0, 255, 0);
+}
+
+.footer_end_p {
+    display: block;
+    margin-left: auto;
+    font-size: 12px;
+    color: rgb(131, 131, 131);
+}
